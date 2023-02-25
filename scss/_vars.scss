@@ -1,0 +1,30 @@
+// color
+// $bg: #2C2B2B; 
+$bg: #010101; 
+$white: #ffffff;
+$gold: #FBD784;
+$gold-btn: #FFA343;
+
+// fonts
+
+// container
+@mixin container_s{
+    max-width: 1471px;
+    width: 100%;
+    margin: 0% auto;
+    padding: 5px;
+}
+
+@mixin container_m{
+    max-width: 1766px;
+    width: 100%;
+    margin: 0% auto;
+    padding: 5px;
+}
+
+@mixin title{
+    color: $white;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+}
